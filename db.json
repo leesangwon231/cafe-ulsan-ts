@@ -154,5 +154,12 @@
       "category": "smoothie",
       "image": "https://images.pexels.com/photos/302980/pexels-photo-302980.jpeg"
     }
-  ]
+  ],
+  "main" : {
+    "logo" : "https://coimg.jobkorea.co.kr/Company/Visual_Co/images/2023/06/JK_CO_vzeutw23060722313974.jpg",
+    "image" : ["https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20230224_18%2F1677228433136r8xuW_JPEG%2FKakaoTalk_20230223_195836232_02.jpg"
+      ,"https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20240415_76%2F17131749165138o0i6_JPEG%2FA5A5BC14-F8E1-46D3-819E-335DBF6FCE94.jpeg"
+      , "https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20240415_161%2F17131749161670hjRq_JPEG%2F77E792B1-B0A6-4FDD-B25C-CDCCA09414A5.jpeg"
+    ]
+  }
 }

@@ -1,0 +1,22 @@
+.header_area{
+    border-bottom: var(--main--color--origin) 2px solid;
+    .logo_area{
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        img {
+            border-radius: 30%;
+            max-height: 80px;
+            max-width: 100px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.19), 0 2px 2px rgba(0,0,0,0.23);
+            margin: 10px;
+        }
+        p {
+          font-family: 'SUITE Variable', sans-serif;
+          font-size: 40px;
+        }
+    }
+}
