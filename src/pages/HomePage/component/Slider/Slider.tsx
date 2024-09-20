@@ -18,6 +18,7 @@ const Slider:React.FC<sliderType> = ({image}) => {
             scrollbar={{
                 hide: true,
             }}
+            loop={true}
             modules={[Scrollbar]}
             className="mySwiper"
         >
