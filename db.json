@@ -1,0 +1,158 @@
+{
+  "menu" : [
+    {
+      "name": "원목 쑥 밀크 (ONLY ICE)",
+      "description": "쑥의 향과 고소한 우유의 조화.",
+      "price": 7500,
+      "category": "signature",
+      "image": "https://images.pexels.com/photos/3026802/pexels-photo-3026802.jpeg"
+    },
+    {
+      "name": "원목 쑥 팥빙 (ONLY ICE)",
+      "description": "달콤한 팥과 쑥의 독특한 만남.",
+      "price": 8000,
+      "category": "signature",
+      "image": "https://images.pexels.com/photos/6542434/pexels-photo-6542434.jpeg"
+    },
+    {
+      "name": "에스프레소",
+      "description": "진한 에스프레소의 깊은 풍미.",
+      "price": 5000,
+      "category": "coffee",
+      "image": "https://images.pexels.com/photos/302897/pexels-photo-302897.jpeg"
+    },
+    {
+      "name": "아메리카노",
+      "description": "깊고 진한 맛의 아메리카노.",
+      "price": 5500,
+      "category": "coffee",
+      "image": "https://images.pexels.com/photos/302899/pexels-photo-302899.jpeg"
+    },
+    {
+      "name": "카페라떼",
+      "description": "부드러운 우유와 에스프레소의 조화.",
+      "price": 6000,
+      "category": "coffee",
+      "image": "https://images.pexels.com/photos/5441135/pexels-photo-5441135.jpeg"
+    },
+    {
+      "name": "카푸치노 (ONLY HOT)",
+      "description": "부드러운 거품이 일품인 카푸치노.",
+      "price": 6000,
+      "category": "coffee",
+      "image": "https://images.pexels.com/photos/302906/pexels-photo-302906.jpeg"
+    },
+    {
+      "name": "바닐라라떼",
+      "description": "달콤한 바닐라와 라떼의 완벽한 조합.",
+      "price": 6500,
+      "category": "coffee",
+      "image": "https://images.pexels.com/photos/2551861/pexels-photo-2551861.jpeg"
+    },
+    {
+      "name": "아포가토",
+      "description": "진한 에스프레소와 바닐라 아이스크림의 만남.",
+      "price": 6500,
+      "category": "coffee",
+      "image": "https://images.pexels.com/photos/1166123/pexels-photo-1166123.jpeg"
+    },
+    {
+      "name": "콜드브루 (ONLY ICE)",
+      "description": "서서히 우려낸 콜드브루 커피.",
+      "price": 6500,
+      "category": "coffee",
+      "image": "https://images.pexels.com/photos/302898/pexels-photo-302898.jpeg"
+    },
+    {
+      "name": "핸드드립 커피 (ONLY ICE)",
+      "description": "수작업으로 추출한 핸드드립 커피.",
+      "price": 6500,
+      "category": "coffee",
+      "image": "https://images.pexels.com/photos/1307698/pexels-photo-1307698.jpeg"
+    },
+    {
+      "name": "자몽 허니 블랙티 (ONLY ICE)",
+      "description": "상큼한 자몽과 달콤한 꿀이 어우러진 블랙티.",
+      "price": 6500,
+      "category": "tea",
+      "image": "https://images.pexels.com/photos/302902/pexels-photo-302902.jpeg"
+    },
+    {
+      "name": "레몬티",
+      "description": "신선한 레몬향이 가득한 티.",
+      "price": 6500,
+      "category": "tea",
+      "image": "https://images.pexels.com/photos/3596999/pexels-photo-3596999.jpeg"
+    },
+    {
+      "name": "유자차",
+      "description": "향긋한 유자와 따뜻한 차의 조화.",
+      "price": 6500,
+      "category": "tea",
+      "image": "https://images.pexels.com/photos/7098247/pexels-photo-7098247.jpeg"
+    },
+    {
+      "name": "초코라떼",
+      "description": "진한 초콜릿과 부드러운 우유의 조화.",
+      "price": 6500,
+      "category": "latte",
+      "image": "https://images.pexels.com/photos/7242167/pexels-photo-7242167.jpeg"
+    },
+    {
+      "name": "말차라떼",
+      "description": "고소한 말차와 우유의 풍미.",
+      "price": 6500,
+      "category": "latte",
+      "image": "https://images.pexels.com/photos/5976787/pexels-photo-5976787.jpeg"
+    },
+    {
+      "name": "토피넛라떼",
+      "description": "달콤한 토피넛 향이 가득한 라떼.",
+      "price": 7000,
+      "category": "latte",
+      "image": "https://images.pexels.com/photos/769918/pexels-photo-769918.jpeg"
+    },
+    {
+      "name": "밀크티라떼",
+      "description": "고소한 밀크티와 우유의 조화.",
+      "price": 7000,
+      "category": "latte",
+      "image": "https://images.pexels.com/photos/7178968/pexels-photo-7178968.jpeg"
+    },
+    {
+      "name": "딸기라떼 (ONLY ICE)",
+      "description": "상큼한 딸기가 듬뿍 들어간 라떼.",
+      "price": 7000,
+      "category": "latte",
+      "image": "https://images.pexels.com/photos/14411258/pexels-photo-14411258.jpeg"
+    },
+    {
+      "name": "플레인요거트",
+      "description": "신선하고 부드러운 플레인 요거트.",
+      "price": 7000,
+      "category": "smoothie",
+      "image": "https://images.pexels.com/photos/4194370/pexels-photo-4194370.jpeg"
+    },
+    {
+      "name": "딸기 스무디",
+      "description": "신선한 딸기와 얼음이 어우러진 스무디.",
+      "price": 7000,
+      "category": "smoothie",
+      "image": "https://images.pexels.com/photos/3739773/pexels-photo-3739773.jpeg"
+    },
+    {
+      "name": "블루베리 스무디",
+      "description": "새콤달콤한 블루베리 스무디.",
+      "price": 7000,
+      "category": "smoothie",
+      "image": "https://images.pexels.com/photos/159887/pexels-photo-159887.jpeg"
+    },
+    {
+      "name": "쿠앤크 프라페",
+      "description": "크리미한 쿠키 앤 크림 프라페.",
+      "price": 7000,
+      "category": "smoothie",
+      "image": "https://images.pexels.com/photos/302980/pexels-photo-302980.jpeg"
+    }
+  ]
+}
