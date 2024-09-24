@@ -144,14 +144,14 @@
       "name": "블루베리 스무디",
       "description": "새콤달콤한 블루베리 스무디.",
       "price": 7000,
-      "category": "smoothie",
+      "category": "signature",
       "image": "https://images.pexels.com/photos/159887/pexels-photo-159887.jpeg"
     },
     {
       "name": "쿠앤크 프라페",
       "description": "크리미한 쿠키 앤 크림 프라페.",
       "price": 7000,
-      "category": "smoothie",
+      "category": "signature",
       "image": "https://images.pexels.com/photos/302980/pexels-photo-302980.jpeg"
     }
   ],
