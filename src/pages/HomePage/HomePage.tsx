@@ -6,6 +6,8 @@ import {MainPageImage} from "../../model/main";
 import Slider from "./component/Slider/Slider";
 import CafeInfo from "./component/CafeInfo/CafeInfo";
 import SignatureSlider from "./component/SignatureSlider/SignatureSlider";
+import AOS from "aos";
+import Summary from "./component/Summary/Summary";
 
 const HomePage:React.FC = () => {
 
@@ -23,6 +25,17 @@ const HomePage:React.FC = () => {
     return data.category === "signature";
   })
 
+  const summary = fetchedMainData?.summary.image;
+
+
+
+  useEffect(() => {
+    AOS.init({
+      offset: 300,
+      once : false
+    });
+  }, []);
+
   useEffect(() => {
 
     setMenuData(fetchedMenuData);
@@ -30,12 +43,13 @@ const HomePage:React.FC = () => {
     window.scrollTo(0, 0)
   }, [fetchedMenuData,fetchedMainData]);
 
+
   return (
       <div className={"homepage"}>
         <Slider image={mainPageImageData?.image}/>
         <CafeInfo/>
+        <Summary summaryImage={summary}/>
         <SignatureSlider signatureMenu={signatureMenu}/>
-
       </div>
   );
 }

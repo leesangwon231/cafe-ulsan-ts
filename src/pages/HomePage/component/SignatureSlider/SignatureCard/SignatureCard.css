@@ -1,13 +1,13 @@
 .Signature_Card{
-    width: 100%;
-    background-color: #1DBED6;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    max-width: calc(80% - 30px);
     height: 400px;
+    width: calc(100% - 50px);
     img{
         width: 100%;
+        object-fit: cover;
+        aspect-ratio: 1 / 1;
     }
 }

@@ -1,14 +1,34 @@
-.signature-slider{
-    margin-right: 100px;
-    margin-left: 100px;
-    .swiper-wrapper{
-        display: flex;
-        .swiper-slide{
+.inner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 
+    .signature-title{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 50px;
+        h3{
+            font-size: 50px;
+            margin: 50px 0 20px 0;
+        }
+        span{
+            font-size: 30px;
+        }
+    }
+
+    .signature-slider{
+        width: 100%;
+        max-width: 1320px;
+        .swiper-slide{
             display: flex;
             justify-content: center;
             align-items: center;
         }
     }
 }
+
+
 

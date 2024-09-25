@@ -1,9 +1,12 @@
 import React from 'react';
 import {MenuInfo} from "../../../../../model/menu";
 import "./SignatureCard.css"
+
 interface SignatureMenuType {
     signatureMenu : MenuInfo
 }
+
+
 
 
 const SignatureCard:React.FC<SignatureMenuType> = ({signatureMenu}) => {

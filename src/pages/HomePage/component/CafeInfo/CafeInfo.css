@@ -6,25 +6,39 @@
         max-width: 700px;
         border-radius: 200px;
         margin-top: 50px;
-        margin-right: 200px;
         margin-bottom: 50px;
+        width: calc(80% - 20px);
+        min-width: 300px;
     }
 
     .cafe_Info_Detail{
+        display: flex;
+        flex-direction: column;
         h3{
             font-size: 50px;
-            margin-bottom: 10px;
             display: flex;
+            margin: 0;
+            height: 100px;
         }
         .Info{
             display: flex;
             flex-direction: column;
+
             p{
+                margin : 10px 0px 0px 0px;
                 font-size: 30px;
-                margin-top: 30px;
             }
         }
 
     }
 
 }
+
+
+@media screen and (max-width: 576px) {
+    .cafe_Info{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
