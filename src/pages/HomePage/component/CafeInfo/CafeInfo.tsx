@@ -4,7 +4,7 @@ const CafeInfo = () => {
 
   return (
     <div className={"cafe_Info"}>
-        <div>
+        <div className={"cafe_info_img_area"}>
             <img alt={"cafe_info_img"} data-aos="fade-in" data-aos-delay={300} src={"https://mblogthumb-phinf.pstatic.net/MjAyMzAzMThfODIg/MDAxNjc5MTQ5NzU5MzQ4.VA7UFnltCUSD--mwGMhxScnJX5WiIo6gue0micYv6csg.TYTd1ZHLxw4RhA8f-SXtv9Dn_wEv9VlK8HguFKeYA8Eg.JPEG.winnie_-_pooh/1679148901889.jpg?type=w800"}/>
         </div>
         <div className={"cafe_Info_Detail"}>

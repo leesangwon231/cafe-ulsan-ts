@@ -7,6 +7,12 @@ const Header = () => {
         <div className={"logo_area"}>
             <img src={"https://coimg.jobkorea.co.kr/Company/Visual_Co/images/2023/06/JK_CO_vzeutw23060722313974.jpg"}/>
         </div>
+        <div className={"header_menu"}>
+            <ul>
+                <li>ABOUT US</li>
+                <li>PRODUCT</li>
+            </ul>
+        </div>
     </div>
   );
 }

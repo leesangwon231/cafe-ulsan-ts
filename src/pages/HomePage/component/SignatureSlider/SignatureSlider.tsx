@@ -25,7 +25,20 @@ const SignatureSlider: React.FC<SignatureType>  = ({signatureMenu}) => {
                   loop={true}
                   modules={[Scrollbar]}
                   className="signature-slider"
-                  slidesPerView={3}
+                  breakpoints={{
+                      320: {
+                          slidesPerView: 1,
+                      },
+                      700: {
+                          slidesPerView: 2,
+                      },
+                      950: {
+                          slidesPerView: 3,
+                      },
+                      1440: {
+                          slidesPerView: 3,
+                      },
+                  }}
               >
                   {signatureMenu?.map((menu, index) => (
                       <SwiperSlide key={index}>

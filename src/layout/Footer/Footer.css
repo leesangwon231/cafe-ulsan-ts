@@ -1,0 +1,35 @@
+.footer{
+    border-top: var(--main--color--origin) 3px solid;
+    margin-top: 50px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    padding: 60px 0;
+    .info{
+        max-width: 1390px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        .info_left{
+            span{
+                margin-left: 10px;
+            }
+            ul{
+                margin: 0;
+                padding: 0;
+                display: flex;
+                gap: 10px;
+                li{
+                    list-style-type: none;
+                }
+            }
+        }
+    }
+
+
+
+
+
+}

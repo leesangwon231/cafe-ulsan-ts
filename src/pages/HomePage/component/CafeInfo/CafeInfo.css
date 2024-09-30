@@ -35,10 +35,133 @@
 }
 
 
-@media screen and (max-width: 576px) {
+
+
+
+@media only screen and (max-width: 600px) {
     .cafe_Info{
         display: flex;
         flex-direction: column;
+        .cafe_info_img_area{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            max-width: 250px;
+            max-height: 250px;
+        }
+
+        .cafe_Info_Detail{
+            h3{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 30px;
+            }
+            .Info{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                p{
+                    font-size: 30px;
+                }
+            }
+        }
+
     }
 }
+
+/* 600px 이하 화면 */
+@media (max-width: 600px) {
+    .cafe_Info {
+        flex-direction: column;
+
+        img {
+            max-width: 250px;
+            max-height: 250px;
+        }
+
+        .cafe_Info_Detail {
+            h3 {
+                justify-content: center;
+                align-items: center;
+                font-size: 30px;
+                height: 30px;
+            }
+
+            .Info {
+                justify-content: center;
+                align-items: center;
+
+                p {
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+}
+
+/* 601px ~ 767px 화면 */
+@media (min-width: 601px) and (max-width: 767px) {
+    .cafe_Info {
+        img {
+            max-width: 350px;
+        }
+
+        .cafe_Info_Detail {
+            h3 {
+                font-size: 35px;
+            }
+
+            .Info {
+                p {
+                    font-size: 13px;
+                }
+            }
+        }
+    }
+}
+
+/* 768px ~ 991px 화면 */
+@media (min-width: 768px) and (max-width: 991px) {
+    .cafe_Info {
+        img {
+            max-width: 400px;
+        }
+
+        .cafe_Info_Detail {
+            h3 {
+                font-size: 40px;
+            }
+
+            .Info {
+                p {
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+}
+
+/* 992px 이상 화면 */
+@media (min-width: 992px) {
+    .cafe_Info {
+        img {
+            max-width: 600px;
+        }
+
+        .cafe_Info_Detail {
+            h3 {
+                font-size: 40px;
+            }
+
+            .Info {
+                p {
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+}
+
 

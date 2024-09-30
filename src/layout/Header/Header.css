@@ -1,5 +1,9 @@
 .header_area{
     border-bottom: var(--main--color--origin) 2px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     .logo_area{
         padding: 10px;
         display: flex;
@@ -18,5 +22,71 @@
           font-family: 'SUITE Variable', sans-serif;
           font-size: 40px;
         }
+
+
+    }
+
+    .header_menu{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        max-width: 1300px;
+       ul{
+           margin: 20px 0 20px 0 ;
+           padding: 0;
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           width: calc(60% - 20px);
+       }
+        li{
+            list-style-type: none;
+            width: calc(100% - 30px);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+
+        }
+        li:hover{
+            color: var(--main--color--origin);
+        }
+
+    }
+
+    .header_menu li:after {
+        display: block;
+        content: '';
+        border-bottom: solid 3px var(--main--color--origin);
+        transform: scaleX(0);
+        transition: transform 250ms ease-in-out;
+        position: absolute;
+        bottom: -10px;
+        left: 0;
+        width: 100%;
+    }
+
+    .header_menu li:hover:after {
+        transform: scaleX(0.5);
+    }
+}
+
+
+@media (max-width: 550px) {
+    .header_menu{
+        ul{
+            margin: 0 !important; ;
+            padding: 0;
+            flex-direction: column;
+        }
+
+        li{
+            text-align: center;
+            margin: 10px;
+            padding: 0;
+            flex-grow: 1;
+        }
+
     }
 }
