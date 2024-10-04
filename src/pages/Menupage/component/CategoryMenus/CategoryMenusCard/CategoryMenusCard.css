@@ -1,0 +1,16 @@
+.CategoryMenusCard{
+    background-color: white;
+    overflow: hidden;
+    img{
+       width: 100%;
+        aspect-ratio: 4/3;
+        transition: all 0.4s;
+    }
+    img:hover{
+        scale: 1.1;
+    }
+    display: flex;
+    flex-direction: column;
+    width: calc(23% - 30px);
+    height : calc(50vh - 20px);
+}

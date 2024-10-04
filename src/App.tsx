@@ -3,6 +3,7 @@ import './App.css';
 import HomePage from "./pages/HomePage/HomePage";
 import {Route, Routes} from "react-router-dom";
 import LayOut from "./layout/LayOut";
+import MenuPage from "./pages/Menupage/MenuPage";
 
 const App : React.FC = () => {
   return (
@@ -11,6 +12,7 @@ const App : React.FC = () => {
         <Routes>
             <Route path="/" element={<LayOut/>}>
                 <Route index element={<HomePage/>}/>
+                <Route path="products" element={<MenuPage/>}/>
             </Route>
         </Routes>
     </div>

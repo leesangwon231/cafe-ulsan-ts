@@ -1,0 +1,32 @@
+.CategoryMenus_container{
+    padding: 40px 0 40px 0 ;
+    max-width: 1700px;
+}
+
+.CategoryMenu_Area_Right{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 30px;
+
+}
+
+.CategoryMenu_Title_Right{
+    text-align: start;
+}
+
+
+.CategoryMenu_Area_Left{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 30px;
+    justify-content: end;
+}
+
+
+.CategoryMenu_Title_Left{
+    text-align: end;
+}
+
+
