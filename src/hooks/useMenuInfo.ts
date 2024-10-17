@@ -3,7 +3,7 @@ import axios from "axios";
 
 
 const getMenuInfo = () => {
-    return axios.get("http://localhost:3002/menu")
+    return axios.get("https://my-json-server.typicode.com/leesangwon231/cafe-ulsan-ts/menu")
 }
 
 export const useMenuInfo = () => {

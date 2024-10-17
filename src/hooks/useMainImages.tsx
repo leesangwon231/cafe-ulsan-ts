@@ -3,7 +3,7 @@ import axios from "axios";
 
 
 const getMainImage = () => {
-    return axios.get("http://localhost:3002/main");
+    return axios.get("https://my-json-server.typicode.com/leesangwon231/cafe-ulsan-ts/main");
 }
 
 export const useMainImages = () => {
