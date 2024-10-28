@@ -15,7 +15,7 @@ const CategoryMenus : React.FC<categoryMenuType> = ({categoryMenu, index} ) => {
   return (
       <div className={"CategoryMenus_container"}>
           {Object.keys(categoryMenu).map((categoryData) => (
-              <div>
+              <div className={"CategoryMenus_container_wrap"}>
                   <h1
                       className={`${index % 2 === 0 ? "CategoryMenu_Title_Right" : "CategoryMenu_Title_Left"}`}
                       data-aos={`${index % 2 === 0 ? "fade-right" : "fade-left"}`}
@@ -23,7 +23,7 @@ const CategoryMenus : React.FC<categoryMenuType> = ({categoryMenu, index} ) => {
                       {categoryData}
                   </h1>
                   <div
-                      className={ `${index % 2 === 0 ? "CategoryMenu_Area_Right" : "CategoryMenu_Area_Left"}`}
+                      className={`${index % 2 === 0 ? "CategoryMenu_Area_Right" : "CategoryMenu_Area_Left"}`}
                       data-aos={`${index % 2 === 0 ? "fade-right" : "fade-left"}`}
                   >
                       {categoryMenu[categoryData]?.map((menuData) => (

@@ -31,7 +31,6 @@ const HomePage:React.FC = () => {
 
   useEffect(() => {
     AOS.init({
-      offset: 300,
       once : false
     });
   }, []);

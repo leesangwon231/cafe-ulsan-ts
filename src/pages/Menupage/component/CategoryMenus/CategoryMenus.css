@@ -1,6 +1,12 @@
 .CategoryMenus_container{
     padding: 40px 0 40px 0 ;
     max-width: 1700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .CategoryMenus_container_wrap{
+        margin: 20px;
+    }
 }
 
 .CategoryMenu_Area_Right{
