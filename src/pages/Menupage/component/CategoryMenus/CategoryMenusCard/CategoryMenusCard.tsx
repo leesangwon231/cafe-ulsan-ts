@@ -10,9 +10,9 @@ const CategoryMenusCard:React.FC<CategoryMenusCardType> = ({menuData}) => {
   return (
     <div className={"CategoryMenusCard"}>
        <img src={menuData?.image}></img>
-       <span>{menuData?.name}</span>
-       <span>{menuData?.price}</span>
-       <span>{menuData?.description}</span>
+       <span className={"CategoryMenusCard_name"}>{menuData?.name}</span>
+       <span className={"CategoryMenusCard_price"}>₩ {menuData?.price}</span>
+       <span className={"CategoryMenusCard_description"}>{menuData?.description}</span>
     </div>
   );
 }

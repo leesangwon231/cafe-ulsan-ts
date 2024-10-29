@@ -1,4 +1,5 @@
 .slider{
+    scroll-snap-align: start;
     .swiper {
         margin-top: 10px;
         .swiper-slide{
@@ -9,6 +10,7 @@
                 width: 100%;
                 height:100%
             }
+
         }
         @media screen and (max-width: 1200px) {
             .swiper-slide {
