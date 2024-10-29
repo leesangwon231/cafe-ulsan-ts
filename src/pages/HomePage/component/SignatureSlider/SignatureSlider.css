@@ -4,7 +4,6 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-
     .signature-title{
         display: flex;
         flex-direction: column;

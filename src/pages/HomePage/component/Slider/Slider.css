@@ -1,5 +1,6 @@
 .slider{
     scroll-snap-align: start;
+    min-height: 80vh;
     .swiper {
         margin-top: 10px;
         .swiper-slide{

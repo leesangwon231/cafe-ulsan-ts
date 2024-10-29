@@ -30,12 +30,7 @@ const HomePage: React.FC = () => {
 
   useEffect(() => {
     AOS.init({ once: false,  easing: 'ease-in-out' });
-    const handleScroll = () => AOS.refresh();
-    window.addEventListener('scroll', handleScroll);
 
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-    };
   }, []);
 
   useEffect(() => {
